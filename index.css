@@ -1,20 +1,10 @@
 *{
     color: white;
+    margin: 0px;
 }
 
-.border{
-    background-color:rgb(183, 180, 176);
-    height: 100%;
-    width: 1230px;
-    padding: 10px;
-}
-.border1{
-    margin: 0px;
-    background-color:orange;
-    height: 100%;
-    width: 1250px;
-    padding: 10px;
-}
+/*  */
+
 
 .info{
     /* background-image: linear-gradient(to  right,white,rgb(213, 183, 126)); */
@@ -22,9 +12,9 @@
     /* background-color: white; */
     background-color: rgb(43, 38, 38);
     height: 100%;
-    width: 1220px;
+    width: 100%;
     /* margin-top: -15px; */
-    padding-left: 10px;
+    padding-left: 35px;
       
 }
 
