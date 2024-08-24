@@ -1,6 +1,7 @@
 *{
     color: white;
     margin: 0px;
+    
 }
 
 .info{
@@ -13,13 +14,14 @@
   
       
 }
-
 @media (max-width: 480px) {
     .info{
-        background-color: #b41818;
+        width: 100%;
     }
-    
     }
+
+
+
 .container {
     height:4%;
     width:94%;
@@ -164,11 +166,10 @@ pre{
     justify-content: center; 
     align-items: center; 
     overflow: hidden;
-    /* position: relative; */
 }
 
 .pic{ 
-    border: 2px black solid;
+  
     height: 100%;
     width: 25%;
     display: flex;
@@ -179,7 +180,7 @@ pre{
 
 .skill-pic{
     margin-top: 50px;
-    margin-left: 160px;
+    margin-left: 140px;
     height: 300px;
     width: 300px;
     
@@ -188,7 +189,6 @@ pre{
 .skills{
     margin-top: -350px;
     margin-left: 550px;
-    
     height: 400px;
     width: 40%;
     display: flex;
