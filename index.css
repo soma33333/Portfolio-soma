@@ -101,7 +101,7 @@ div.click {
 
 .abpic{
     margin-top: -24%;
-    margin-left: 15%;
+    margin-left: 19%;
     /* height: 63vh; */
     width: 76%;
     /* border: 2px solid  black; */
@@ -133,7 +133,7 @@ pre{
     margin-left: -40%;
     width: fit-contet;
     line-height: 250%;
-    font-size: 15px;
+    font-size: 19px;
 }
 .resume{
     margin-left: 25%;
@@ -141,6 +141,9 @@ pre{
     width: 120px;
     border-radius: 10px;
     background-color: rgb(232, 129, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .resume:hover{
@@ -171,7 +174,7 @@ pre{
 .pic{ 
   
     height: 100%;
-    width: 25%;
+    width: 50%;
     display: flex;
  
     
@@ -188,23 +191,23 @@ pre{
 }
 .skills{
     margin-top: -350px;
-    margin-left: 550px;
+    margin-left: 700px;
     height: 400px;
     width: 40%;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
-    gap: 0px;
+    gap: 5px;
     }
 .tech{
-    background-color:rgb(197, 192, 192);
+    background-color: rgb(232, 129, 11);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     border-radius: 15px;
     
 }
@@ -247,7 +250,7 @@ pre{
 .projects{
     margin-top: -50px;
     margin-left: 150px;
-    height: 750px;
+    height: fit-content;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -296,10 +299,12 @@ pre{
     background-color: #939596;
 }
 
-
+#contact{
+    margin-left: 150px;
+}
 .contact{
-    margin-top: -20px;
-    margin-left: 200px;
+    
+    margin-left: 300px;
     
     height: 500px;
     width: 800px;
@@ -314,6 +319,7 @@ pre{
     font-size: 16px;
 }
 form{
+    padding: 15px;
     border-radius: 15px;
     background-color:rgb(183, 180, 176);
     font-size: 18px;
@@ -322,7 +328,7 @@ form{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 450px;
     width: 400px;
     gap:6px;
 }
@@ -364,7 +370,7 @@ button:hover{
     margin-left: -10px;
 }
 .space{
-    height: 150px;
+    height:160px;
     width: 100%;
 }
 
